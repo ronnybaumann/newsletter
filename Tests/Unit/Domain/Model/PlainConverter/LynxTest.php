@@ -90,5 +90,4 @@ class LynxTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
         $actual = $this->subject->getPlainText($html, 'http://my-domain.com');
         $this->assertEquals($expected, $actual);
     }
-
 }
