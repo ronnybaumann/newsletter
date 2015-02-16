@@ -22,7 +22,7 @@ before_script:
 
 script:
   - cd typo3conf/ext/newsletter && gulp && cd ../../../
-  - ./bin/phpunit --coverage-clover=unittest-coverage.clover --colors -c typo3conf/ext/news/Tests/Build/UnitTests.xml
+  - ./bin/phpunit --coverage-clover=unittest-coverage.clover --colors -c typo3conf/ext/newsletter/Tests/Build/UnitTests.xml
 
 after_script:
   - echo "Uploading code coverage results";
