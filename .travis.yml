@@ -7,7 +7,7 @@ php:
   - 5.6
 
 env:
-  - TYPO3_BRANCH=master
+  - TYPO3_BRANCH=TYPO3_6-2
 
 before_script:
   - npm install -g gulp
