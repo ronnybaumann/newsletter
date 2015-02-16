@@ -33,6 +33,7 @@ use Swift_EmbeddedFile;
  *  This copyright notice MUST APPEAR in all copies of the script!
  * ************************************************************* */
 
+// For TYPO3 6.X or TYPO3 7.X
 $swift1 = PATH_typo3 . 'contrib/swiftmailer/swift_required.php';
 $swift2 = PATH_typo3 . 'contrib/swiftmailer/lib/swift_required.php';
 
